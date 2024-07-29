@@ -13,8 +13,8 @@ sites:
     url: https://news.ycombinator.com
     icon: https://static.zeron.cloud/v1/images/C-Compliance.svg
   - name: Integrations
-    url: https://static.zeron.cloud/v1/images/Integration.svg
-    icon: https://www.google.com/favicon.ico
+    url: https://news.ycombinator.com
+    icon: https://static.zeron.cloud/v1/images/Integration.svg
   - name: Cloud Monitor
     url: https://news.ycombinator.com
     icon: https://static.zeron.cloud/v1/images/Cloud_Monitoring.svg
