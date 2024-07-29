@@ -32,7 +32,7 @@ status-website:
   # favicon: 
   themeUrl: https://securezeron.github.io/uptime/my-custom-theme.css
   # logoUrl: https://zeron.one/wp-content/uploads/2023/09/white-logo-resized-108x21-1.png
-  name: Zeron Product Status Page
+  name: Zeron Status
   logoUrl: https://static.zeron.cloud/v1/images/favicon-1.png
   introTitle: "**Zeron - Cyber Risk Posture Management Platform**"
   introMessage: Zeron Service Status
