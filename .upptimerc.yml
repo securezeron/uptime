@@ -24,7 +24,7 @@ sites:
     assignees:
       - waris-zeron
 i18n:
-  footer: (https://zeron.one)
+  footer: Zeron
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
