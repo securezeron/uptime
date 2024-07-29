@@ -23,6 +23,8 @@ sites:
     icon: https://static.zeron.cloud/v1/images/vrm.svg
     assignees:
       - waris-zeron
+i18n:
+  footer: This page is Zeron Status, powered by [Zeron](https://zeron.one)
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
