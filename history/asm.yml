@@ -1,7 +1,7 @@
-url: https://devapi.cogz.one/billing/v1/pla
-status: down
-code: 404
-responseTime: 881
-lastUpdated: 2024-07-30T07:32:57.287Z
+url: https://devapi.cogz.one/billing/v1/plans/
+status: up
+code: 200
+responseTime: 1322
+lastUpdated: 2024-07-30T09:06:22.641Z
 startTime: 2024-07-24T19:17:52.593Z
 generator: Upptime <https://github.com/upptime/upptime>
