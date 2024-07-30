@@ -4,7 +4,7 @@ repo: uptime # The name of this repository
 
 sites:
   - name: ASM
-    url: https://devapi.cogz.one/billing/v1/plans/
+    url: https://devapi.cogz.one/billing/v1/pla
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
   - name: Business Posture
     url: https://en.wikipedia.org
