@@ -43,16 +43,28 @@ status-website:
 i18n:
   footer: Zeron  
 
-incidents:
+# incidents:
+#   - name: API Outage
+#     date: 2024-07-01
+#     duration: 2h
+#     message: "Resolved - The API was down for 2 hours due to a server issue."
+#   - name: Database Maintenance
+#     date: 2024-06-20
+#     duration: 1h
+#     message: "Completed - Scheduled maintenance on the database for performance improvements."
+#   - name: Network Latency
+#     date: 2024-06-10
+#     duration: 30m
+#     message: "Resolved - Temporary network latency issues due to ISP problems."    
+
+active-incidents:
   - name: API Outage
-    date: 2024-07-01
-    duration: 2h
-    message: "Resolved - The API was down for 2 hours due to a server issue."
-  - name: Database Maintenance
-    date: 2024-06-20
-    duration: 1h
-    message: "Completed - Scheduled maintenance on the database for performance improvements."
-  - name: Network Latency
-    date: 2024-06-10
-    duration: 30m
-    message: "Resolved - Temporary network latency issues due to ISP problems."      
+    start: 2024-07-30T10:00:00Z
+    affected: 
+      - ASM
+      - Business Posture
+      - Compliance
+      - Integrations
+      - Cloud Monitor
+      - VRM
+    message: "We are currently experiencing an API outage. Our team is working to resolve the issue."
