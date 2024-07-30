@@ -1,7 +1,65 @@
- :root {
+ /* :root {
     --body-background-color: #19133fff;
     --body-text-color: #f0ffff;
     --card-background-color: #251d58ff;
     --nav-background-color: #514f4f;
     --nav-border-bottom-color: #95e6e6;
-  }
+  } */
+:root body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+header img {
+  height: 50px;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.incident-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.incident-card h3 {
+  margin: 0 0 10px;
+}
+
+.incident-card p {
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
