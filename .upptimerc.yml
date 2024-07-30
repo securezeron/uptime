@@ -23,24 +23,12 @@ sites:
     icon: https://static.zeron.cloud/v1/images/vrm.svg
     assignees:
       - waris-zeron
-i18n:
-  footer: Zeron
 
-status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
-  baseUrl: /uptime
-  # favicon: 
-  themeUrl: https://securezeron.github.io/uptime/my-custom-theme.css
-  # logoUrl: https://zeron.one/wp-content/uploads/2023/09/white-logo-resized-108x21-1.png
-  name: Zeron Status
-  logoUrl: https://static.zeron.cloud/v1/images/favicon_final.svg
-  introTitle: "**Zeron - Cyber Risk Posture Management Platform**"
-  introMessage: Zeron Service Status
-  navbar:
-    - title: Status
-      href: /uptime/
+commitMessages:
+  readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
+  summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
+  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+  graphsUpdate: ":bento: Update graphs [skip ci] [upptime]"      
 
 incidents:
   - name: "Database Outage"
@@ -59,3 +47,22 @@ incidents:
     affected_components:
       - "Network"
       - "Web Server"
+
+status-website:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  # cname: demo.upptime.js.org
+  baseUrl: /uptime
+  # favicon: 
+  themeUrl: https://securezeron.github.io/uptime/my-custom-theme.css
+  # logoUrl: https://zeron.one/wp-content/uploads/2023/09/white-logo-resized-108x21-1.png
+  name: Zeron Status
+  logoUrl: https://static.zeron.cloud/v1/images/favicon_final.svg
+  introTitle: "**Zeron - Cyber Risk Posture Management Platform**"
+  introMessage: Zeron Service Status
+  navbar:
+    - title: Status
+      href: /uptime/
+
+i18n:
+  footer: Zeron      
