@@ -40,7 +40,7 @@ status-website:
   introMessage: Zeron Service Status
   navbar:
     - title: Status
-      href: /
+      href: /uptime/
 
 incidents:
   - name: "Database Outage"
