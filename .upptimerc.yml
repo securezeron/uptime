@@ -6,6 +6,8 @@ sites:
   - name: ASM
     url: https://devapi.cogz.one/billing/v1/plans/
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
+    expectedStatusCodes:
+      - 200
   - name: Business Posture
     url: https://en.wikipedia.com
     icon: https://static.zeron.cloud/v1/images/business_posture.svg
