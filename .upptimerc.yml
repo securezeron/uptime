@@ -41,3 +41,21 @@ status-website:
   navbar:
     - title: Status
       href: /
+
+incidents:
+  - name: "Database Outage"
+    description: "We experienced a database outage that affected several services."
+    start_time: "2023-07-25T12:00:00Z"
+    end_time: "2023-07-25T13:30:00Z"
+    severity: "high"
+    affected_components:
+      - "Database"
+      - "API"
+  - name: "Network Latency"
+    description: "Increased network latency was observed affecting user access."
+    start_time: "2023-08-15T08:00:00Z"
+    end_time: "2023-08-15T09:00:00Z"
+    severity: "medium"
+    affected_components:
+      - "Network"
+      - "Web Server"
