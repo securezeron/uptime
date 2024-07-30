@@ -1,0 +1,60 @@
+<!-- docs/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/custom-styles.css">
+  <title>Zeron Status</title>
+</head>
+<body>
+  <header>
+    <h1>Zeron - Cyber Risk Posture Management Platform</h1>
+    <img src="https://static.zeron.cloud/v1/images/favicon_final.svg" alt="Zeron Logo">
+  </header>
+
+  <nav>
+    <a href="/uptime">Status</a>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>Zeron Service Status</h2>
+      <p>Welcome to the Zeron service status page. Here you can find information about the current status of our services.</p>
+    </section>
+
+    <section id="active-incidents">
+      <h2>Active Incidents</h2>
+      {{#each active-incidents}}
+      <div class="incident-card">
+        <h3>{{name}}</h3>
+        <p><strong>Start:</strong> {{start}}</p>
+        <p><strong>Affected Services:</strong> {{affected}}</p>
+        <p>{{message}}</p>
+      </div>
+      {{/each}}
+    </section>
+
+    <section id="service-status">
+      <h2>Service Status</h2>
+      <!-- Service status cards go here -->
+    </section>
+
+    <section id="past-incidents">
+      <h2>Past Incidents</h2>
+      {{#each incidents}}
+      <div class="incident-card">
+        <h3>{{name}}</h3>
+        <p><strong>Date:</strong> {{date}}</p>
+        <p><strong>Duration:</strong> {{duration}}</p>
+        <p>{{message}}</p>
+      </div>
+      {{/each}}
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Zeron</p>
+  </footer>
+</body>
+</html>
