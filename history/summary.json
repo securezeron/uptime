@@ -5,18 +5,17 @@
     "icon": "https://static.zeron.cloud/v1/images/attack_surface.svg",
     "slug": "asm",
     "status": "up",
-    "uptime": "98.56%",
-    "uptimeDay": "99.06%",
-    "uptimeWeek": "98.56%",
-    "uptimeMonth": "98.56%",
-    "uptimeYear": "98.56%",
+    "uptime": "98.70%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "98.70%",
+    "uptimeMonth": "98.70%",
+    "uptimeYear": "98.70%",
     "time": 869,
     "timeDay": 964,
     "timeWeek": 869,
     "timeMonth": 869,
     "timeYear": 869,
     "dailyMinutesDown": {
-      "2024-07-31": 14,
       "2024-07-30": 125
     }
   },
