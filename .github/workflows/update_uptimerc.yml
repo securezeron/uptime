@@ -1,0 +1,39 @@
+name: Update .uptimerc.yml
+
+on:
+  workflow_dispatch:  # Allows manual triggering of the workflow
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight
+
+jobs:
+  update-uptimerc:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+
+    - name: Get current date
+      id: datetime
+      run: echo "current_date=$(date -u +"%Y-%m-%d")" >> $GITHUB_ENV
+
+    - name: Update .uptimerc.yml with current date
+      run: |
+        DATE_SECTION="
+        last_update: ${current_date}
+        "
+
+        # Check if the last_update section already exists and update or add it
+        if grep -q '^last_update:' .uptimerc.yml; then
+          sed -i "s/^last_update:.*/last_update: ${current_date}/" .uptimerc.yml
+        else
+          echo "$DATE_SECTION" >> .uptimerc.yml
+        fi
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .uptimerc.yml
+        git commit -m "Update .uptimerc.yml with current date"
+        git push
