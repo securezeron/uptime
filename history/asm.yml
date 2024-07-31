@@ -1,7 +1,7 @@
-url: https://devapi.cogz.one/billing/v1/plans/
+url: https://devapi.cogz.one/billing/v1/plans/?format=json
 status: up
 code: 200
-responseTime: 1423
-lastUpdated: 2024-07-31T04:50:02.685Z
+responseTime: 1000
+lastUpdated: 2024-07-31T05:38:04.762Z
 startTime: 2024-07-24T19:17:52.593Z
 generator: Upptime <https://github.com/upptime/upptime>
