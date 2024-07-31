@@ -4,7 +4,7 @@ repo: uptime # The name of this repository
 
 sites:
   - name: ASM
-    url: https://devapi.cogz.one/billing/v1/pl
+    url: https://devapi.cogz.one/billing/v1/plans
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
   - name: Business Posture
     url: https://en.wikipedia.com
@@ -57,14 +57,14 @@ i18n:
 #     duration: 30m
 #     message: "Resolved - Temporary network latency issues due to ISP problems."    
 
-# active-incidents:
-#   - name: API Outage
-#     start: 2024-07-30T10:00:00Z
-#     affected: 
-#       - ASM
-#       - Business Posture
-#       - Compliance
-#       - Integrations
-#       - Cloud Monitor
-#       - VRM
-#     message: "We are currently experiencing an API outage. Our team is working to resolve the issue."
+active-incidents:
+  - name: API Outage
+    start: "`r format(Sys.time(), '%d %B, %Y')`"
+    affected: 
+      - ASM
+      - Business Posture
+      - Compliance
+      - Integrations
+      - Cloud Monitor
+      - VRM
+    message: "We are currently experiencing an API outage. Our team is working to resolve the issue."
