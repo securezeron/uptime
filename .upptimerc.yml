@@ -6,21 +6,27 @@ sites:
   - name: ASM
     url: https://devapi.cogz.one/billing/v1/plans/
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
+    expectedStatusCode: 200 # Add expected status code here
   - name: Business Posture
     url: https://en.wikipedia.com
     icon: https://static.zeron.cloud/v1/images/business_posture.svg
+    expectedStatusCode: 200 # Add expected status code here
   - name: Compliance
     url: https://news.ycombinator.com
     icon: https://static.zeron.cloud/v1/images/compliance.svg
+    expectedStatusCode: 200 # Add expected status code here
   - name: Integrations
     url: https://news.ycombinator.com
     icon: https://static.zeron.cloud/v1/images/integration.svg
+    expectedStatusCode: 200 # Add expected status code here
   - name: Cloud Monitor
     url: https://news.ycombinator.com
     icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
+    expectedStatusCode: 200 # Add expected status code here
   - name: VRM
     url: https://www.google.com
     icon: https://static.zeron.cloud/v1/images/vrm.svg
+    expectedStatusCode: 200 # Add expected status code here
     assignees:
       - waris-zeron    
 
@@ -43,20 +49,6 @@ status-website:
 i18n:
   footer: Zeron  
 
-# incidents:
-#   - name: API Outage
-#     date: 2024-07-01
-#     duration: 2h
-#     message: "Resolved - The API was down for 2 hours due to a server issue."
-#   - name: Database Maintenance
-#     date: 2024-06-20
-#     duration: 1h
-#     message: "Completed - Scheduled maintenance on the database for performance improvements."
-#   - name: Network Latency
-#     date: 2024-06-10
-#     duration: 30m
-#     message: "Resolved - Temporary network latency issues due to ISP problems."    
-
 active-incidents:
   - name: API Outage
     start: 2024-07-31T10:00:00Z
@@ -69,3 +61,34 @@ active-incidents:
       - VRM
     message: "We are currently experiencing an API outage. Our team is working to resolve the issue."
 
+checks:
+  - name: ASM
+    url: https://devapi.cogz.one/billing/v1/pla
+    method: GET
+    assert:
+      status: 200
+  - name: Business Posture
+    url: https://en.wikipedia.org
+    method: GET
+    assert:
+      status: 200
+  - name: Compliance
+    url: https://news.ycombinator.com
+    method: GET
+    assert:
+      status: 200
+  - name: Integrations
+    url: https://news.ycombinator.com
+    method: GET
+    assert:
+      status: 200
+  - name: Cloud Monitor
+    url: https://news.ycombinator.com
+    method: GET
+    assert:
+      status: 200
+  - name: VRM
+    url: https://www.google.com
+    method: GET
+    assert:
+      status: 200
