@@ -63,7 +63,7 @@ active-incidents:
 
 checks:
   - name: ASM
-    url: https://devapi.cogz.one/billing/v1/pla
+    url: https://devapi.cogz.one/billing/v1/plans/
     method: GET
     assert:
       status: 200
