@@ -1,7 +1,7 @@
-url: https://devapi.cogz.one/admin/login/?next=/admin/
+url: https://easmdevapi.cogz.one/easm/v1/management/
 status: up
 code: 200
-responseTime: 849
-lastUpdated: 2024-08-05T12:04:19.205Z
+responseTime: 842
+lastUpdated: 2024-08-05T13:06:52.307Z
 startTime: 2024-07-24T19:17:52.593Z
 generator: Upptime <https://github.com/upptime/upptime>
