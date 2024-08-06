@@ -4,7 +4,7 @@ repo: uptime # The name of this repository
 
 sites:
   - name: ASM
-    url: https://easmdevapi.cogz.one/easm/v1/managem
+    url: https://easmdevapi.cogz.one/easm/v1/management/
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
     expectedStatusCode: 200 # Add expected status code here
   - name: Business Posture
