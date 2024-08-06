@@ -11,7 +11,7 @@
     "uptimeMonth": "98.73%",
     "uptimeYear": "98.73%",
     "time": 876,
-    "timeDay": 851,
+    "timeDay": 854,
     "timeWeek": 903,
     "timeMonth": 876,
     "timeYear": 876,
@@ -33,11 +33,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.42%",
     "uptimeYear": "99.42%",
-    "time": 362,
-    "timeDay": 454,
-    "timeWeek": 477,
-    "timeMonth": 362,
-    "timeYear": 362,
+    "time": 361,
+    "timeDay": 446,
+    "timeWeek": 472,
+    "timeMonth": 361,
+    "timeYear": 361,
     "dailyMinutesDown": {
       "2024-07-30": 106
     }
@@ -53,11 +53,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.42%",
     "uptimeYear": "99.42%",
-    "time": 340,
-    "timeDay": 376,
-    "timeWeek": 387,
-    "timeMonth": 340,
-    "timeYear": 340,
+    "time": 347,
+    "timeDay": 398,
+    "timeWeek": 399,
+    "timeMonth": 347,
+    "timeYear": 347,
     "dailyMinutesDown": {
       "2024-07-30": 106
     }
@@ -85,19 +85,19 @@
     "url": "https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth",
     "icon": "https://static.zeron.cloud/v1/images/cloud_monitoring.svg",
     "slug": "cloud-monitor",
-    "status": "down",
-    "uptime": "95.39%",
-    "uptimeDay": "95.39%",
-    "uptimeWeek": "95.39%",
-    "uptimeMonth": "95.39%",
-    "uptimeYear": "95.39%",
-    "time": 228,
-    "timeDay": 591,
-    "timeWeek": 367,
-    "timeMonth": 228,
-    "timeYear": 228,
+    "status": "up",
+    "uptime": "90.30%",
+    "uptimeDay": "90.30%",
+    "uptimeWeek": "90.30%",
+    "uptimeMonth": "90.30%",
+    "uptimeYear": "90.30%",
+    "time": 234,
+    "timeDay": 598,
+    "timeWeek": 376,
+    "timeMonth": 234,
+    "timeYear": 234,
     "dailyMinutesDown": {
-      "2024-08-06": 8
+      "2024-08-06": 18
     }
   },
   {
@@ -111,11 +111,11 @@
     "uptimeWeek": "99.98%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
-    "time": 127,
-    "timeDay": 235,
-    "timeWeek": 169,
-    "timeMonth": 127,
-    "timeYear": 127,
+    "time": 134,
+    "timeDay": 252,
+    "timeWeek": 181,
+    "timeMonth": 134,
+    "timeYear": 134,
     "dailyMinutesDown": {
       "2024-08-06": 2
     }
