@@ -19,10 +19,10 @@ sites:
     url: https://news.ycombinator.com
     icon: https://static.zeron.cloud/v1/images/integration.svg
     expectedStatusCode: 200 # Add expected status code here
-  - name: Cloud Monitor
+  - name: Cloud Monitor up
     url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
     icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
-    expectedStatusCode: 200 # Add expected status code here
+    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
     headers:
       - "x-api-key:  $API_CSPM_SECRET"
       - "Content-Type: application/json"
