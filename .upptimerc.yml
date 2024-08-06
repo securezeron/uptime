@@ -20,7 +20,7 @@ sites:
     icon: https://static.zeron.cloud/v1/images/integration.svg
     expectedStatusCode: 200 # Add expected status code here
   - name: Cloud Monitor
-    url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
+    url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHeal
     icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
     expectedStatusCode: 200 # Add expected status code here
     headers:
