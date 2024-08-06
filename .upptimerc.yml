@@ -45,6 +45,16 @@ status-website:
   navbar:
     - title: Status
       href: /uptime
+  
+  active:
+    label: "Active"
+    color: "#00FF00"  # Change this color code to your desired color
+  down:
+    label: "Down"
+    color: "#FF0000"
+  degraded:
+    label: "Degraded"
+    color: "#FFA500"    
 
 i18n:
   footer: Zeron  
