@@ -26,6 +26,13 @@ sites:
     headers:
       - "x-api-key:  $API_CSPM_SECRET"
       - "Content-Type: application/json"
+  - name: Cloud Monitor
+    url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
+    icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
+    __dangerous__body_down: "502 Bad Gateway"
+    headers:
+      - "x-api-key:  $API_CSPM_SECRET"
+      - "Content-Type: application/json"    
   - name: VRM
     url: https://www.google.com
     icon: https://static.zeron.cloud/v1/images/vrm.svg
