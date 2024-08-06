@@ -4,7 +4,7 @@ repo: uptime # The name of this repository
 
 sites:
   - name: ASM
-    url: https://easmdevapi.cogz.one/easm/v1/managem
+    url: https://easmdevapi.cogz.one/easm/v1/management/
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
     expectedStatusCode: 200 # Add expected status code here
   - name: Business Posture
@@ -20,9 +20,12 @@ sites:
     icon: https://static.zeron.cloud/v1/images/integration.svg
     expectedStatusCode: 200 # Add expected status code here
   - name: Cloud Monitor
-    url: https://news.ycombinator.com
+    url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
     icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
     expectedStatusCode: 200 # Add expected status code here
+    headers:
+      - "x-api-key:  $API_CSPM_SECRET"
+      - "Content-Type: application/json"
   - name: VRM
     url: https://www.google.com
     icon: https://static.zeron.cloud/v1/images/vrm.svg
