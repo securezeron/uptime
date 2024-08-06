@@ -1,7 +1,7 @@
-url: https://news.ycombinator.com
+url: https://compdev.cogz.one/rest/v1/check-health
 status: up
 code: 200
-responseTime: 415
-lastUpdated: 2024-08-06T11:08:07.798Z
+responseTime: 957
+lastUpdated: 2024-08-06T12:19:44.334Z
 startTime: 2024-07-24T19:17:53.451Z
 generator: Upptime <https://github.com/upptime/upptime>
