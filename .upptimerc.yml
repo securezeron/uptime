@@ -85,7 +85,7 @@ checks:
     assert:
       status: 200
   - name: Compliance
-    url: https://news.ycombinator.com
+    url: https://compdev.cogz.one/rest/v1/check-health
     method: GET
     assert:
       status: 200
