@@ -1,7 +1,7 @@
-url: https://easmdevapi.cogz.one/easm/v1/managem/
-status: down
-code: 404
-responseTime: 889
-lastUpdated: 2024-08-06T05:53:47.966Z
+url: https://easmdevapi.cogz.one/easm/v1/management/
+status: up
+code: 200
+responseTime: 758
+lastUpdated: 2024-08-06T05:59:42.901Z
 startTime: 2024-07-24T19:17:52.593Z
 generator: Upptime <https://github.com/upptime/upptime>
