@@ -27,9 +27,13 @@ sites:
       - "x-api-key:  $API_CSPM_SECRET"
       - "Content-Type: application/json"   
   - name: VRM
-    url: https://www.google.com
+    url: https://vrm.cogz.one/api/v1/check-health
     icon: https://static.zeron.cloud/v1/images/vrm.svg
     expectedStatusCode: 200 # Add expected status code here
+    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+    headers:
+      - "x-api-key:  $API_VRM_SECRET"
+      - "Content-Type: application/json" 
     assignees:
       - waris-zeron    
 
