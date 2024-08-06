@@ -4,7 +4,7 @@ repo: uptime # The name of this repository
 
 sites:
   - name: ASM
-    url: https://easmdevapi.cogz.one/easm/v1/manageme/
+    url: https://easmdevapi.cogz.one/easm/v1/management/
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
     expectedStatusCode: 200 # Add expected status code here
   - name: Business Posture
@@ -47,16 +47,7 @@ status-website:
   introMessage: Zeron Service Status
   navbar:
     - title: Status
-      href: /uptime
-  # active:
-  #   label: "Active"
-  #   color: "#00FF00"  # Change this color code to your desired color
-  # down:
-  #   label: "Down"
-  #   color: "#FF0000"
-  # degraded:
-  #   label: "Degraded"
-  #   color: "#FFA500"    
+      href: /uptime  
 
 i18n:
   footer: Zeron  
