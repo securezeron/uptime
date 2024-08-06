@@ -90,12 +90,12 @@ checks:
     assert:
       status: 200
   - name: Cloud Monitor
-    url: https://news.ycombinator.com
+    url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
     method: GET
     assert:
       status: 200
   - name: VRM
-    url: https://www.google.com
+    url: https://vrm.cogz.one/api/v1/check-health
     method: GET
     assert:
       status: 200
