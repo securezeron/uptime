@@ -1,7 +1,7 @@
-url: https://www.google.com
+url: https://vrm.cogz.one/api/v1/check-health
 status: up
 code: 200
-responseTime: 81
-lastUpdated: 2024-08-06T09:46:47.433Z
+responseTime: 993
+lastUpdated: 2024-08-06T11:07:23.433Z
 startTime: 2024-07-24T19:17:55.067Z
 generator: Upptime <https://github.com/upptime/upptime>
