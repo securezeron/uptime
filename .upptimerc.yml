@@ -19,7 +19,7 @@ sites:
     url: https://news.ycombinator.com
     icon: https://static.zeron.cloud/v1/images/integration.svg
     expectedStatusCode: 200 # Add expected status code here
-  - name: Cloud Monitor up
+  - name: Cloud Monitor
     url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
     icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
     expectedStatusCode: 200 # Add expected status code here
