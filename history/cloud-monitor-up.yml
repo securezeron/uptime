@@ -1,7 +1,7 @@
 url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
-status: degraded
+status: up
 code: 200
-responseTime: 635
-lastUpdated: 2024-08-06T09:15:55.447Z
+responseTime: 808
+lastUpdated: 2024-08-06T09:26:46.012Z
 startTime: 2024-08-06T08:08:40.961Z
 generator: Upptime <https://github.com/upptime/upptime>
