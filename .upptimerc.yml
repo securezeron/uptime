@@ -3,15 +3,15 @@ owner: securezeron # Your GitHub organization or username, where this repository
 repo: uptime # The name of this repository
 
 sites:
-  - name: ASM
+  - name: ASM ## Ratnadeep Dey Roy
     url: https://easmdevapi.cogz.one/easm/v1/management/
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
     expectedStatusCode: 200 # Add expected status code here
-  - name: Business Posture
+  - name: Business Posture ## Ratnadeep Dey Roy
     url: https://en.wikipedia.com
     icon: https://static.zeron.cloud/v1/images/business_posture.svg
     expectedStatusCode: 200 # Add expected status code here
-  - name: Compliance  
+  - name: Compliance  ## Avinav Rishi
     url: https://compdev.cogz.one/rest/v1/check-health
     icon: https://static.zeron.cloud/v1/images/compliance.svg
     expectedStatusCode: 200 # Add expected status code here
@@ -19,11 +19,11 @@ sites:
     headers:
       - "x-api-key:  $API_COMP_SECRET"
       - "Content-Type: application/json" 
-  - name: Integrations
+  - name: Integrations ## Rohit Thakur
     url: https://news.ycombinator.com
     icon: https://static.zeron.cloud/v1/images/integration.svg
     expectedStatusCode: 200 # Add expected status code here
-  - name: Cloud Monitor
+  - name: Cloud Monitor ## Rohit Thakur
     url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
     icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
     expectedStatusCode: 200 # Add expected status code here
@@ -31,7 +31,7 @@ sites:
     headers:
       - "x-api-key:  $API_CSPM_SECRET"
       - "Content-Type: application/json"   
-  - name: VRM
+  - name: VRM ## Avinav Rishi
     url: https://vrm.cogz.one/api/v1/check-health
     icon: https://static.zeron.cloud/v1/images/vrm.svg
     expectedStatusCode: 200 # Add expected status code here
