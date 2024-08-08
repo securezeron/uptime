@@ -5,7 +5,7 @@ repo: uptime # The name of this repository
 sites:
   - name: CRPM ## Rohit Thakur
     url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
-    icon: https://static.zeron.cloud/v1/images/attack_surface.svg
+    icon: https://static.zeron.cloud/v1/images/crpm_logo.svg
     expectedStatusCode: 200 # Add expected status code here
     __dangerous__body_down_if_text_missing: '"message":"Server is up"'
     headers:
