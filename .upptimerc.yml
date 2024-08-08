@@ -3,7 +3,7 @@ owner: securezeron # Your GitHub organization or username, where this repository
 repo: uptime # The name of this repository
 
 sites:
-  - name: CRPM
+  - name: CRPM ## Rohit Thakur
     url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
     expectedStatusCode: 200 # Add expected status code here
@@ -28,9 +28,13 @@ sites:
       - "x-api-key:  $API_COMP_SECRET"
       - "Content-Type: application/json" 
   - name: Integrations ## Rohit Thakur
-    url: https://news.ycombinator.com
+    url: https://api-connector.cogz.one/zeron-connector/health-check/
     icon: https://static.zeron.cloud/v1/images/integration.svg
     expectedStatusCode: 200 # Add expected status code here
+    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+    headers:
+      - "x-api-key:  $API_APICONCTR_SECRET"
+      - "Content-Type: application/json"
   - name: Cloud Monitor ## Rohit Thakur
     url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
     icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
