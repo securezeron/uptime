@@ -3,6 +3,14 @@ owner: securezeron # Your GitHub organization or username, where this repository
 repo: uptime # The name of this repository
 
 sites:
+  - name: CRPM
+    url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
+    icon: https://static.zeron.cloud/v1/images/attack_surface.svg
+    expectedStatusCode: 200 # Add expected status code here
+    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+    headers:
+      - "x-api-key:  $API_CRPM_SECRET"
+      - "Content-Type: application/json"  
   - name: ASM ## Ratnadeep Dey Roy
     url: https://easmdevapi.cogz.one/easm/v1/management/
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
@@ -65,6 +73,7 @@ active-incidents:
   - name: API Outage
     start: 2024-07-31T10:00:00Z
     affected: 
+      - CRPM
       - ASM
       - Business Posture
       - Compliance
@@ -74,6 +83,11 @@ active-incidents:
     message: "We are currently experiencing an API outage. Our team is working to resolve the issue."
 
 checks:
+  - name: CRPM
+    url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
+    method: GET
+    assert:
+     status: 200
   - name: ASM
     url: https://easmdevapi.cogz.one/easm/v1/management/
     method: GET
