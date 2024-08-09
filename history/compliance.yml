@@ -1,7 +1,7 @@
 url: https://compdev.cogz.one/rest/v1/check-health
-status: down
-code: 504
-responseTime: 10859
-lastUpdated: 2024-08-08T23:16:48.758Z
+status: up
+code: 200
+responseTime: 1043
+lastUpdated: 2024-08-09T05:41:44.888Z
 startTime: 2024-07-24T19:17:53.451Z
 generator: Upptime <https://github.com/upptime/upptime>
