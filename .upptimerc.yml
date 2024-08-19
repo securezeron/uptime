@@ -20,9 +20,13 @@ sites:
       - "x-api-key:  $API_EASM_SECRET"
       - "Content-Type: application/json"
   - name: Business Posture ## Ratnadeep Dey Roy
-    url: https://en.wikipedia.com
+    url: https://rcvar.cogz.one/check-health
     icon: https://static.zeron.cloud/v1/images/business_posture.svg
     expectedStatusCode: 200 # Add expected status code here
+    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+    headers:
+      - "x-api-key:  $API_RCVAR_SECRET"
+      - "Content-Type: application/json"
   - name: Compliance  ## Avinav Rishi
     url: https://compdev.cogz.one/rest/v1/check-health
     icon: https://static.zeron.cloud/v1/images/compliance.svg
@@ -55,6 +59,14 @@ sites:
     headers:
       - "x-api-key:  $API_VRM_SECRET"
       - "Content-Type: application/json" 
+  - name: CRQ ## Avinav Rishi
+    url: https://devcrqv2.cogz.one/crq/v1/simulation/check-health
+    icon: https://static.zeron.cloud/v1/images/integration.svg
+    expectedStatusCode: 200 # Add expected status code here
+    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+    headers:
+      - "x-api-key:  $API_CRQ_SECRET"
+      - "Content-Type: application/json"     
     assignees:
       - waris-zeron    
 
@@ -97,7 +109,7 @@ checks:
     assert:
      status: 200
   - name: ASM
-    url: https://easmdevapi.cogz.one/easm/v1/management/
+    url: https://easmdevapi.cogz.one/easm/v1/check-health
     method: GET
     assert:
       status: 200
@@ -126,3 +138,8 @@ checks:
     method: GET
     assert:
       status: 200
+  - name: CRQ
+    url: https://devcrqv2.cogz.one/crq/v1/simulation/check-health
+    method: GET
+    assert:
+      status: 200    
