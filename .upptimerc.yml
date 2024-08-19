@@ -59,7 +59,7 @@ sites:
     headers:
       - "x-api-key:  $API_VRM_SECRET"
       - "Content-Type: application/json" 
-  - name: CRQ ## Avinav Rishi
+  - name: CRQ ## Ratnadeep Dey Roy
     url: https://devcrqv2.cogz.one/crq/v1/simulation/check-health
     icon: https://static.zeron.cloud/v1/images/integration.svg
     expectedStatusCode: 200 # Add expected status code here
