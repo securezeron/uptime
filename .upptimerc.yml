@@ -12,9 +12,13 @@ sites:
       - "x-api-key:  $API_CRPM_SECRET"
       - "Content-Type: application/json"  
   - name: ASM ## Ratnadeep Dey Roy
-    url: https://easmdevapi.cogz.one/easm/v1/management/
+    url: https://easmdevapi.cogz.one/easm/v1/check-health
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
     expectedStatusCode: 200 # Add expected status code here
+    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+    headers:
+      - "x-api-key:  $API_EASM_SECRET"
+      - "Content-Type: application/json"
   - name: Business Posture ## Ratnadeep Dey Roy
     url: https://en.wikipedia.com
     icon: https://static.zeron.cloud/v1/images/business_posture.svg
