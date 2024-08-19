@@ -1,7 +1,7 @@
-url: https://en.wikipedia.com
-status: up
+url: https://rcvar.cogz.one/check-health
+status: down
 code: 200
-responseTime: 393
-lastUpdated: 2024-08-19T04:30:55.978Z
+responseTime: 841
+lastUpdated: 2024-08-19T05:15:21.774Z
 startTime: 2024-07-24T19:17:52.970Z
 generator: Upptime <https://github.com/upptime/upptime>
