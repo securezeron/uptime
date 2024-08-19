@@ -20,12 +20,12 @@ sites:
       - "x-api-key:  $API_EASM_SECRET"
       - "Content-Type: application/json"
   - name: Business Posture ## Ratnadeep Dey Roy
-    url: https://rcvar.cogz.one/check-health
+    url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
     icon: https://static.zeron.cloud/v1/images/business_posture.svg
     expectedStatusCode: 200 # Add expected status code here
     __dangerous__body_down_if_text_missing: '"message":"Server is up"'
     headers:
-      - "x-api-key:  $API_RCVAR_SECRET"
+      - "x-api-key:  $API_CRPM_SECRET"
       - "Content-Type: application/json"
   - name: Compliance  ## Avinav Rishi
     url: https://compdev.cogz.one/rest/v1/check-health
@@ -100,6 +100,7 @@ active-incidents:
       - Integrations
       - Cloud Monitor
       - VRM
+      - CRQ
     message: "We are currently experiencing an API outage. Our team is working to resolve the issue."
 
 checks:
@@ -114,7 +115,7 @@ checks:
     assert:
       status: 200
   - name: Business Posture
-    url: https://en.wikipedia.org
+    url: https://rcvar.cogz.one/check-health
     method: GET
     assert:
       status: 200
