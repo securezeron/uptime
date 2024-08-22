@@ -4,19 +4,19 @@
     "url": "https://devapi.cogz.one/rest/v1/core-backend/health-check/",
     "icon": "https://static.zeron.cloud/v1/images/crpm_logo.svg",
     "slug": "crpm",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
-    "time": 859,
-    "timeDay": 818,
-    "timeWeek": 822,
-    "timeMonth": 859,
-    "timeYear": 859,
+    "status": "up",
+    "uptime": "97.63%",
+    "uptimeDay": "97.63%",
+    "uptimeWeek": "97.63%",
+    "uptimeMonth": "97.63%",
+    "uptimeYear": "97.63%",
+    "time": 852,
+    "timeDay": 782,
+    "timeWeek": 813,
+    "timeMonth": 852,
+    "timeYear": 852,
     "dailyMinutesDown": {
-      "2024-08-22": 0
+      "2024-08-22": 11
     }
   },
   {
