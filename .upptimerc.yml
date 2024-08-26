@@ -73,8 +73,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
-  baseUrl: /uptime
+   cname: status.zeron.one
+  # baseUrl: /uptime
   # favicon: 
   themeUrl: https://securezeron.github.io/uptime/my-custom-theme.css
   # logoUrl: https://zeron.one/wp-content/uploads/2023/09/white-logo-resized-108x21-1.png
