@@ -1,7 +1,7 @@
 url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
 status: up
 code: 200
-responseTime: 1104
-lastUpdated: 2024-08-25T23:15:41.706Z
+responseTime: 723
+lastUpdated: 2024-08-26T10:27:56.831Z
 startTime: 2024-08-22T07:19:15.089Z
 generator: Upptime <https://github.com/upptime/upptime>
