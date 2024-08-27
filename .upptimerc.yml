@@ -85,7 +85,7 @@ status-website:
   introMessage: Zeron Service Status
   navbar:
     - title: Status
-      href: /uptime
+      href: https://status.zeron.one/
 
 i18n:
   footer: Zeron  
