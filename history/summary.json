@@ -24,19 +24,19 @@
     "url": "https://easmdevapi.cogz.one/easm/v1/check-health",
     "icon": "https://static.zeron.cloud/v1/images/attack_surface.svg",
     "slug": "asm",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1044,
-    "timeDay": 1211,
+    "status": "up",
+    "uptime": "99.78%",
+    "uptimeDay": "98.45%",
+    "uptimeWeek": "99.78%",
+    "uptimeMonth": "99.78%",
+    "uptimeYear": "99.78%",
+    "time": 1048,
+    "timeDay": 1330,
     "timeWeek": 1564,
-    "timeMonth": 1129,
-    "timeYear": 1044,
+    "timeMonth": 1140,
+    "timeYear": 1048,
     "dailyMinutesDown": {
-      "2024-08-29": 0
+      "2024-08-29": 22
     }
   },
   {
@@ -53,7 +53,7 @@
     "time": 473,
     "timeDay": 659,
     "timeWeek": 843,
-    "timeMonth": 500,
+    "timeMonth": 504,
     "timeYear": 473,
     "dailyMinutesDown": {}
   },
@@ -71,7 +71,7 @@
     "time": 617,
     "timeDay": 674,
     "timeWeek": 847,
-    "timeMonth": 644,
+    "timeMonth": 648,
     "timeYear": 617,
     "dailyMinutesDown": {}
   },
@@ -89,7 +89,7 @@
     "time": 554,
     "timeDay": 1206,
     "timeWeek": 1376,
-    "timeMonth": 588,
+    "timeMonth": 592,
     "timeYear": 554,
     "dailyMinutesDown": {}
   },
@@ -107,7 +107,7 @@
     "time": 451,
     "timeDay": 657,
     "timeWeek": 854,
-    "timeMonth": 486,
+    "timeMonth": 490,
     "timeYear": 451,
     "dailyMinutesDown": {}
   },
@@ -125,7 +125,7 @@
     "time": 369,
     "timeDay": 661,
     "timeWeek": 816,
-    "timeMonth": 398,
+    "timeMonth": 401,
     "timeYear": 369,
     "dailyMinutesDown": {}
   },
