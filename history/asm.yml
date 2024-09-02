@@ -1,7 +1,7 @@
 url: https://easmdevapi.cogz.one/easm/v1/check-health
-status: down
-code: 502
-responseTime: 17017
-lastUpdated: 2024-09-02T14:30:18.359Z
+status: up
+code: 200
+responseTime: 1955
+lastUpdated: 2024-09-02T14:41:01.691Z
 startTime: 2024-08-22T07:19:16.436Z
 generator: Upptime <https://github.com/upptime/upptime>
