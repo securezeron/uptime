@@ -12,7 +12,7 @@
     "uptimeYear": "99.87%",
     "time": 858,
     "timeDay": 665,
-    "timeWeek": 841,
+    "timeWeek": 902,
     "timeMonth": 858,
     "timeYear": 858,
     "dailyMinutesDown": {
@@ -32,7 +32,7 @@
     "uptimeYear": "99.81%",
     "time": 1187,
     "timeDay": 6733,
-    "timeWeek": 2530,
+    "timeWeek": 2984,
     "timeMonth": 1394,
     "timeYear": 1187,
     "dailyMinutesDown": {
@@ -53,7 +53,7 @@
     "uptimeYear": "100.00%",
     "time": 487,
     "timeDay": 685,
-    "timeWeek": 795,
+    "timeWeek": 809,
     "timeMonth": 609,
     "timeYear": 487,
     "dailyMinutesDown": {}
@@ -63,18 +63,20 @@
     "url": "https://compdev.cogz.one/rest/v1/check-health",
     "icon": "https://static.zeron.cloud/v1/images/compliance.svg",
     "slug": "compliance",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 626,
     "timeDay": 649,
-    "timeWeek": 792,
+    "timeWeek": 816,
     "timeMonth": 823,
     "timeYear": 626,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-09-03": 0
+    }
   },
   {
     "name": "Integrations",
@@ -89,7 +91,7 @@
     "uptimeYear": "100.00%",
     "time": 589,
     "timeDay": 1266,
-    "timeWeek": 1349,
+    "timeWeek": 1433,
     "timeMonth": 928,
     "timeYear": 589,
     "dailyMinutesDown": {}
@@ -107,7 +109,7 @@
     "uptimeYear": "100.00%",
     "time": 466,
     "timeDay": 649,
-    "timeWeek": 787,
+    "timeWeek": 808,
     "timeMonth": 752,
     "timeYear": 466,
     "dailyMinutesDown": {}
@@ -125,7 +127,7 @@
     "uptimeYear": "100.00%",
     "time": 386,
     "timeDay": 642,
-    "timeWeek": 784,
+    "timeWeek": 797,
     "timeMonth": 608,
     "timeYear": 386,
     "dailyMinutesDown": {}
@@ -143,7 +145,7 @@
     "uptimeYear": "100.00%",
     "time": 1017,
     "timeDay": 657,
-    "timeWeek": 808,
+    "timeWeek": 840,
     "timeMonth": 1017,
     "timeYear": 1017,
     "dailyMinutesDown": {}
