@@ -121,18 +121,20 @@
     "url": "https://vrm.cogz.one/api/v1/check-health",
     "icon": "https://static.zeron.cloud/v1/images/vrm.svg",
     "slug": "vrm",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 403,
-    "timeDay": 657,
-    "timeWeek": 774,
-    "timeMonth": 827,
-    "timeYear": 403,
-    "dailyMinutesDown": {}
+    "time": 406,
+    "timeDay": 682,
+    "timeWeek": 766,
+    "timeMonth": 825,
+    "timeYear": 406,
+    "dailyMinutesDown": {
+      "2024-09-09": 0
+    }
   },
   {
     "name": "CRQ",
