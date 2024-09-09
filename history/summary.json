@@ -139,19 +139,19 @@
     "url": "https://devcrqv2.cogz.one/crq/v1/simulation/check-health",
     "icon": "https://static.zeron.cloud/v1/images/integration.svg",
     "slug": "crq",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 979,
-    "timeDay": 646,
-    "timeWeek": 781,
-    "timeMonth": 979,
-    "timeYear": 979,
+    "status": "up",
+    "uptime": "99.89%",
+    "uptimeDay": "98.08%",
+    "uptimeWeek": "99.73%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.89%",
+    "time": 971,
+    "timeDay": 652,
+    "timeWeek": 768,
+    "timeMonth": 971,
+    "timeYear": 971,
     "dailyMinutesDown": {
-      "2024-09-09": 0
+      "2024-09-09": 28
     }
   }
 ]
