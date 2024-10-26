@@ -1,7 +1,7 @@
 url: https://vrm.cogz.one/api/v1/check-health
-status: up
-code: 200
-responseTime: 896
-lastUpdated: 2024-10-25T23:17:37.103Z
+status: down
+code: 403
+responseTime: 89
+lastUpdated: 2024-10-26T14:51:31.604Z
 startTime: 2024-07-24T19:17:55.067Z
 generator: Upptime <https://github.com/upptime/upptime>
