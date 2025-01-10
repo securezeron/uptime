@@ -3,15 +3,15 @@ owner: securezeron # Your GitHub organization or username, where this repository
 repo: uptime # The name of this repository
 
 sites:
-  - name: CRPM ## Rohit Thakur
-    url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
-    icon: https://static.zeron.cloud/v1/images/crpm_logo.svg
-    expectedStatusCode: 200 # Add expected status code here
-    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
-    headers:
-      - "x-api-key:  $API_CRPM_SECRET"
-      - "Content-Type: application/json"  
-  - name: ASM ## Ratnadeep Dey Roy
+#  - name: CRPM ## Rohit Thakur
+#    url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
+#    icon: https://static.zeron.cloud/v1/images/crpm_logo.svg
+#    expectedStatusCode: 200 # Add expected status code here
+#    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+#    headers:
+#      - "x-api-key:  $API_CRPM_SECRET"
+#      - "Content-Type: application/json"  
+  - name: EASM ## Ratnadeep Dey Roy
     url: https://easmdevapi.cogz.one/easm/v1/check-health
     icon: https://static.zeron.cloud/v1/images/attack_surface.svg
     expectedStatusCode: 200 # Add expected status code here
@@ -19,54 +19,54 @@ sites:
     headers:
       - "x-api-key:  $API_EASM_SECRET"
       - "Content-Type: application/json"
-  - name: Business Posture ## Ratnadeep Dey Roy
-    url: https://rcvar.cogz.one/check-health
-    icon: https://static.zeron.cloud/v1/images/business_posture.svg
-    expectedStatusCode: 200 # Add expected status code here
-    __dangerous__body_down_if_text_missing: '"message": "Server is up"'
-    headers:
-      - "x-api-key:  $API_RCVAR_SECRET"
-      - "Content-Type: application/json"
-  - name: Compliance  ## Avinav Rishi
-    url: https://compdev.cogz.one/rest/v1/check-health
-    icon: https://static.zeron.cloud/v1/images/compliance.svg
-    expectedStatusCode: 200 # Add expected status code here
-    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
-    headers:
-      - "x-api-key:  $API_COMP_SECRET"
-      - "Content-Type: application/json" 
-  - name: Integrations ## Rohit Thakur
-    url: https://api-connector.cogz.one/zeron-connector/health-check/
-    icon: https://static.zeron.cloud/v1/images/integration.svg
-    expectedStatusCode: 200 # Add expected status code here
-    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
-    headers:
-      - "x-api-key:  $API_APICONCTR_SECRET"
-      - "Content-Type: application/json"
-  - name: Cloud Monitor ## Rohit Thakur
-    url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
-    icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
-    expectedStatusCode: 200 # Add expected status code here
-    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
-    headers:
-      - "x-api-key:  $API_CSPM_SECRET"
-      - "Content-Type: application/json"   
-  - name: VRM ## Avinav Rishi
-    url: https://vrm.cogz.one/api/v1/check-health
-    icon: https://static.zeron.cloud/v1/images/vrm.svg
-    expectedStatusCode: 200 # Add expected status code here
-    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
-    headers:
-      - "x-api-key:  $API_VRM_SECRET"
-      - "Content-Type: application/json" 
-  - name: CRQ ## Ratnadeep Dey Roy
-    url: https://devcrqv2.cogz.one/crq/v1/simulation/check-health
-    icon: https://static.zeron.cloud/v1/images/integration.svg
-    expectedStatusCode: 200 # Add expected status code here
-    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
-    headers:
-      - "x-api-key:  $API_CRQ_SECRET"
-      - "Content-Type: application/json"     
+#  - name: Business Posture ## Ratnadeep Dey Roy
+#    url: https://rcvar.cogz.one/check-health
+#    icon: https://static.zeron.cloud/v1/images/business_posture.svg
+#    expectedStatusCode: 200 # Add expected status code here
+#    __dangerous__body_down_if_text_missing: '"message": "Server is up"'
+#    headers:
+#      - "x-api-key:  $API_RCVAR_SECRET"
+#      - "Content-Type: application/json"
+#  - name: Compliance  ## Avinav Rishi
+#    url: https://compdev.cogz.one/rest/v1/check-health
+#    icon: https://static.zeron.cloud/v1/images/compliance.svg
+#    expectedStatusCode: 200 # Add expected status code here
+#    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+#    headers:
+#      - "x-api-key:  $API_COMP_SECRET"
+#      - "Content-Type: application/json" 
+#  - name: Integrations ## Rohit Thakur
+#    url: https://api-connector.cogz.one/zeron-connector/health-check/
+#    icon: https://static.zeron.cloud/v1/images/integration.svg
+#    expectedStatusCode: 200 # Add expected status code here
+#    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+#    headers:
+#      - "x-api-key:  $API_APICONCTR_SECRET"
+#      - "Content-Type: application/json"
+#  - name: Cloud Monitor ## Rohit Thakur
+#    url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
+#    icon: https://static.zeron.cloud/v1/images/cloud_monitoring.svg
+#    expectedStatusCode: 200 # Add expected status code here
+#    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+#    headers:
+#      - "x-api-key:  $API_CSPM_SECRET"
+#      - "Content-Type: application/json"   
+#  - name: VRM ## Avinav Rishi
+#    url: https://vrm.cogz.one/api/v1/check-health
+#    icon: https://static.zeron.cloud/v1/images/vrm.svg
+#    expectedStatusCode: 200 # Add expected status code here
+#    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+#    headers:
+#      - "x-api-key:  $API_VRM_SECRET"
+#      - "Content-Type: application/json" 
+#  - name: CRQ ## Ratnadeep Dey Roy
+#    url: https://devcrqv2.cogz.one/crq/v1/simulation/check-health
+#    icon: https://static.zeron.cloud/v1/images/integration.svg
+#    expectedStatusCode: 200 # Add expected status code here
+#    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+#    headers:
+#      - "x-api-key:  $API_CRQ_SECRET"
+#      - "Content-Type: application/json"     
     assignees:
       - waris-zeron    
 
@@ -94,54 +94,54 @@ active-incidents:
   - name: API Outage
     start: 2024-07-31T10:00:00Z
     affected: 
-      - CRPM
-      - ASM
-      - Business Posture
-      - Compliance
-      - Integrations
-      - Cloud Monitor
-      - VRM
-      - CRQ
+#      - CRPM
+      - EASM
+#      - Business Posture
+#      - Compliance
+#      - Integrations
+#      - Cloud Monitor
+#      - VRM
+#      - CRQ
     message: "We are currently experiencing an API outage. Our team is working to resolve the issue."
 
 checks:
-  - name: CRPM
-    url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
-    method: GET
-    assert:
-     status: 200
-  - name: ASM
+#  - name: CRPM
+#    url: https://devapi.cogz.one/rest/v1/core-backend/health-check/
+#    method: GET
+#    assert:
+#     status: 200
+  - name: EASM
     url: https://easmdevapi.cogz.one/easm/v1/check-health
     method: GET
     assert:
       status: 200
-  - name: Business Posture
-    url: https://rcvar.cogz.one/check-health
-    method: GET
-    assert:
-      status: 200
-  - name: Compliance
-    url: https://compdev.cogz.one/rest/v1/check-health
-    method: GET
-    assert:
-      status: 200
-  - name: Integrations
-    url: https://news.ycombinator.com
-    method: GET
-    assert:
-      status: 200
-  - name: Cloud Monitor
-    url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
-    method: GET
-    assert:
-      status: 200
-  - name: VRM
-    url: https://vrm.cogz.one/api/v1/check-health
-    method: GET
-    assert:
-      status: 200
-  - name: CRQ
-    url: https://devcrqv2.cogz.one/crq/v1/simulation/check-health
-    method: GET
-    assert:
-      status: 200    
+#  - name: Business Posture
+#    url: https://rcvar.cogz.one/check-health
+#    method: GET
+#    assert:
+#      status: 200
+#  - name: Compliance
+#    url: https://compdev.cogz.one/rest/v1/check-health
+#    method: GET
+#    assert:
+#      status: 200
+#  - name: Integrations
+#    url: https://news.ycombinator.com
+#    method: GET
+#    assert:
+#      status: 200
+#  - name: Cloud Monitor
+#    url: https://dev-cm.cogz.one/v2/cloud-monitor/checkHealth
+#    method: GET
+#    assert:
+#      status: 200
+#  - name: VRM
+#    url: https://vrm.cogz.one/api/v1/check-health
+#    method: GET
+#    assert:
+#      status: 200
+#  - name: CRQ
+#    url: https://devcrqv2.cogz.one/crq/v1/simulation/check-health
+#    method: GET
+#    assert:
+#      status: 200    
