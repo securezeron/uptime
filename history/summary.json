@@ -5,18 +5,16 @@
     "icon": "https://static.zeron.cloud/v1/images/attack_surface.svg",
     "slug": "easm",
     "status": "down",
-    "uptime": "1.05%",
-    "uptimeDay": "1.05%",
-    "uptimeWeek": "1.05%",
-    "uptimeMonth": "1.05%",
-    "uptimeYear": "1.05%",
-    "time": 81,
-    "timeDay": 81,
-    "timeWeek": 81,
-    "timeMonth": 81,
-    "timeYear": 81,
-    "dailyMinutesDown": {
-      "2025-01-10": 0
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 110,
+    "timeDay": 110,
+    "timeWeek": 110,
+    "timeMonth": 110,
+    "timeYear": 110,
+    "dailyMinutesDown": {}
   }
 ]
