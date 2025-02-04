@@ -100,7 +100,7 @@ active-incidents:
 #      - Compliance
 #      - Integrations
 #      - Cloud Monitor
-#      - VRM
+      - Vpulse
 #      - CRQ
     message: "We are currently experiencing an API outage. Our team is working to resolve the issue."
 
@@ -135,11 +135,11 @@ checks:
 #    method: GET
 #    assert:
 #      status: 200
-#  - name: VRM
-#    url: https://vrm.cogz.one/api/v1/check-health
-#    method: GET
-#    assert:
-#      status: 200
+  - name: VPulse
+    url: https://vpulseapi.zeron.cloud/api/v2/health
+    method: GET
+    assert:
+      status: 200
 #  - name: CRQ
 #    url: https://devcrqv2.cogz.one/crq/v1/simulation/check-health
 #    method: GET
