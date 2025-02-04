@@ -51,14 +51,14 @@ sites:
 #    headers:
 #      - "x-api-key:  $API_CSPM_SECRET"
 #      - "Content-Type: application/json"   
-#  - name: VRM ## Avinav Rishi
-#    url: https://vrm.cogz.one/api/v1/check-health
-#    icon: https://static.zeron.cloud/v1/images/vrm.svg
-#    expectedStatusCode: 200 # Add expected status code here
-#    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
-#    headers:
-#      - "x-api-key:  $API_VRM_SECRET"
-#      - "Content-Type: application/json" 
+  - name: VPulse ## Avinav Rishi
+    url: https://vpulseapi.zeron.cloud/api/v2/health
+    icon: https://static.zeron.cloud/v1/images/vrm.svg
+    expectedStatusCode: 200 # Add expected status code here
+    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+    headers:
+      - "x-api-key:  $API_VRM_SECRET"
+      - "Content-Type: application/json" 
 #  - name: CRQ ## Ratnadeep Dey Roy
 #    url: https://devcrqv2.cogz.one/crq/v1/simulation/check-health
 #    icon: https://static.zeron.cloud/v1/images/integration.svg
