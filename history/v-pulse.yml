@@ -1,7 +1,7 @@
 url: https://vpulseapi.zeron.cloud/api/v2/health
-status: down
+status: up
 code: 200
-responseTime: 932
-lastUpdated: 2025-02-04T07:08:51.592Z
+responseTime: 1112
+lastUpdated: 2025-02-04T07:12:49.859Z
 startTime: 2025-02-04T07:01:19.201Z
 generator: Upptime <https://github.com/upptime/upptime>
