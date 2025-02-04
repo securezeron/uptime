@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 75,
-    "timeDay": 59,
-    "timeWeek": 68,
-    "timeMonth": 75,
-    "timeYear": 75,
+    "time": 76,
+    "timeDay": 65,
+    "timeWeek": 69,
+    "timeMonth": 76,
+    "timeYear": 76,
     "dailyMinutesDown": {}
   },
   {
@@ -22,19 +22,19 @@
     "url": "https://vpulseapi.zeron.cloud/api/v2/health",
     "icon": "https://static.zeron.cloud/v1/images/vrm.svg",
     "slug": "v-pulse",
-    "status": "down",
-    "uptime": "0.59%",
-    "uptimeDay": "0.59%",
-    "uptimeWeek": "0.59%",
-    "uptimeMonth": "0.59%",
-    "uptimeYear": "0.59%",
-    "time": 898,
-    "timeDay": 898,
-    "timeWeek": 898,
-    "timeMonth": 898,
-    "timeYear": 898,
+    "status": "up",
+    "uptime": "0.73%",
+    "uptimeDay": "0.73%",
+    "uptimeWeek": "0.73%",
+    "uptimeMonth": "0.73%",
+    "uptimeYear": "0.73%",
+    "time": 969,
+    "timeDay": 969,
+    "timeWeek": 969,
+    "timeMonth": 969,
+    "timeYear": 969,
     "dailyMinutesDown": {
-      "2025-02-04": 8
+      "2025-02-04": 11
     }
   }
 ]
