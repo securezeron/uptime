@@ -55,7 +55,7 @@ sites:
     url: https://vpulseapi.zeron.cloud/api/v2/health
     icon: https://static.zeron.cloud/v1/images/vrm.svg
     expectedStatusCode: 200 # Add expected status code here
-    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
     headers:
       - "x-api-key:  $API_VRM_SECRET"
       - "Content-Type: application/json" 
