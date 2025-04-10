@@ -27,14 +27,14 @@ sites:
 #    headers:
 #      - "x-api-key:  $API_RCVAR_SECRET"
 #      - "Content-Type: application/json"
-#  - name: Compliance  ## Avinav Rishi
-#    url: https://compdev.cogz.one/rest/v1/check-health
-#    icon: https://static.zeron.cloud/v1/images/compliance.svg
-#    expectedStatusCode: 200 # Add expected status code here
-#    __dangerous__body_down_if_text_missing: '"message":"Server is up"'
-#    headers:
-#      - "x-api-key:  $API_COMP_SECRET"
-#      - "Content-Type: application/json" 
+  - name: Compliance  ## Waris Zaya
+    url: https://api.zeron.cloud/v1/grc/health
+    icon: https://static.zeron.cloud/v1/images/compliance.svg
+    expectedStatusCode: 200 # Add expected status code here
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
+    headers:
+      - "x-api-key:  $API_VRM_SECRET"
+      - "Content-Type: application/json" 
 #  - name: Integrations ## Rohit Thakur
 #    url: https://api-connector.cogz.one/zeron-connector/health-check/
 #    icon: https://static.zeron.cloud/v1/images/integration.svg
@@ -94,14 +94,10 @@ active-incidents:
   - name: API Outage
     start: 2024-07-31T10:00:00Z
     affected: 
-#      - CRPM
       - EASM
-#      - Business Posture
-#      - Compliance
-#      - Integrations
-#      - Cloud Monitor
       - Vpulse
-#      - CRQ
+      - GRC
+
     message: "We are currently experiencing an API outage. Our team is working to resolve the issue."
 
 checks:
@@ -137,6 +133,12 @@ checks:
 #      status: 200
   - name: VPulse
     url: https://vpulseapi.zeron.cloud/api/v2/health
+    method: GET
+    assert:
+      status: 200
+
+  - name: GRC
+    url: https://api.zeron.cloud/v1/grc/health
     method: GET
     assert:
       status: 200
