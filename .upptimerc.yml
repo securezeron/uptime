@@ -21,7 +21,7 @@ sites:
       - "Content-Type: application/json"
   - name: CAS
     url: https://api.zeron.cloud/v1/cas/health
-    icon: https://static.zeron.cloud/v1/images/zeron_cas.svg
+    icon: https://static.zeron.cloud/v1/images/zeron_cas_white.svg
     expectedStatusCode: 200 # Add expected status code here
     __dangerous__body_down_if_text_missing: '"status":"healthy"'
     headers:
@@ -78,7 +78,7 @@ status-website:
   #baseUrl: /uptime
   # favicon: 
   themeUrl: https://securezeron.github.io/uptime/my-custom-theme.css
-  logoUrl: https://static.zeron.cloud/v1/images/zeron_favicon.svg
+  #logoUrl: https://static.zeron.cloud/v1/images/zeron_favicon.svg
   name: Zeron
   logoUrl: https://static.zeron.cloud/v1/images/zeron_favicon.svg
   introTitle: "**Zeron -Active Plaforms**"
