@@ -84,7 +84,7 @@ status-website:
   introTitle: "**Zeron -Active Plaforms**"
   introMessage: Zeron Service Status
   navbar:
-    - title: Status
+    #- title: Status
       href: https://status.zeron.one/
 
 i18n:
