@@ -81,11 +81,12 @@ status-website:
   #logoUrl: https://static.zeron.cloud/v1/images/zeron_favicon.svg
   name: Zeron
   logoUrl: https://static.zeron.cloud/v1/images/zeron_favicon.svg
+    href: https://zeron.one/
   introTitle: "**Zeron -Active Plaforms**"
   introMessage: Zeron Service Status
   navbar:
-    - title: Status
-      href: https://zeron.one/
+    #- title: Status
+      #href: https://zeron.one/
       
 i18n:
   footer: Zeron  
