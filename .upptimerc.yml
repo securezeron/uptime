@@ -80,8 +80,8 @@ status-website:
   themeUrl: https://securezeron.github.io/uptime/my-custom-theme.css
   # logoUrl: https://zeron.one/wp-content/uploads/2023/09/white-logo-resized-108x21-1.png
   name: Zeron Status
-  logoUrl: https://static.zeron.cloud/v1/images/favicon_final.svg
-  introTitle: "**Zeron - Cyber Risk Posture Management Platform**"
+  logoUrl: https://static.zeron.cloud/v1/images/zeron_favicon.svg
+  introTitle: "**Zeron - **"
   introMessage: Zeron Service Status
   navbar:
     - title: Status
