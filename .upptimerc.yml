@@ -79,7 +79,7 @@ status-website:
   # favicon: 
   themeUrl: https://securezeron.github.io/uptime/my-custom-theme.css
   # logoUrl: https://zeron.one/wp-content/uploads/2023/09/white-logo-resized-108x21-1.png
-  name: Zeron Status
+  name: Zeron
   logoUrl: https://static.zeron.cloud/v1/images/zeron_favicon.svg
   introTitle: "**Zeron -Active Plaforms**"
   introMessage: Zeron Service Status
