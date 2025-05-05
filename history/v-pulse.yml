@@ -1,4 +1,4 @@
-url: https://vpulseapi.zeron.cloud/api/v2/health
+url: https://api.zeron.cloud/v1/cas/health
 status: up
 code: 200
 responseTime: 1019
