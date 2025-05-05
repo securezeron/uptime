@@ -20,7 +20,7 @@ sites:
       - "x-api-key:  $API_EASM_SECRET"
       - "Content-Type: application/json"
   - name: CAS
-    url: https://api.zeron.cloud/v1/cas/health
+    url: https://api.zeron.cloud/v1/cas/heal
     icon: https://static.zeron.cloud/v1/images/zeron_cas_white.svg
     expectedStatusCode: 200 # Add expected status code here
     __dangerous__body_down_if_text_missing: '"status":"healthy"'
