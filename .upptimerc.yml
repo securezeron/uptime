@@ -141,6 +141,11 @@ checks:
     method: GET
     assert:
       status: 200
+  # - name: CAS
+  #   url: https://api.zeron.cloud/v1/cas/health
+  #   method: GET
+  #   assert:
+  #     status: 200
   - name: CAS
     url: https://api.zeron.cloud/v1/cas/health
     method: GET
